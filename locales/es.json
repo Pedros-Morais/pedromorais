@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Acerca",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "name": "Pedro Morais",
+    "roles": [
+      "Desarrollador Full Stack",
+      "Especialista Frontend",
+      "Ingeniero Backend",
+      "Entusiasta UI/UX",
+      "Solucionador de Problemas"
+    ],
+    "description": "Apasionado por crear soluciones digitales innovadoras y dar vida a las ideas a través de código limpio y eficiente.",
+    "cta": {
+      "projects": "Ver Proyectos",
+      "contact": "Contactar"
+    },
+    "scrollDown": "Desplázate para explorar"
+  },
+  "language": {
+    "switch": "Cambiar Idioma",
+    "english": "English",
+    "portuguese": "Português",
+    "spanish": "Español"
+  },
+  "social": {
+    "linkedin": "Perfil LinkedIn",
+    "github": "Perfil GitHub",
+    "email": "Enviar Email"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Una muestra de mi trabajo reciente y experiencia técnica. Cada proyecto representa un desafío único y experiencia de aprendizaje.",
+    "status": {
+      "completed": "Completado",
+      "inProgress": "En Progreso"
+    },
+    "buttons": {
+      "code": "Código",
+      "demo": "Demo en Vivo",
+      "viewAll": "Ver Todos los Proyectos"
+    }
+  },
+  "stacks": {
+    "title": "Stack Tecnológico",
+    "subtitle": "Tecnologías y herramientas que uso para dar vida a las ideas. Siempre aprendiendo y evolucionando con las últimas tendencias de la industria.",
+    "cta": "Construyamos Algo Increíble",
+    "categories": {
+      "frontend": {
+        "title": "Desarrollo Frontend",
+        "description": "Creando interfaces de usuario hermosas y responsivas"
+      },
+      "backend": {
+        "title": "Desarrollo Backend",
+        "description": "Construyendo aplicaciones robustas del lado servidor"
+      },
+      "mobile": {
+        "title": "Desarrollo Móvil",
+        "description": "Aplicaciones móviles multiplataforma"
+      },
+      "tools": {
+        "title": "Herramientas & DevOps",
+        "description": "Herramientas de desarrollo y soluciones de despliegue"
+      }
+    }
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Listo para dar vida a tus ideas? Colaboremos y creemos algo increíble juntos. Siempre estoy emocionado de trabajar en nuevos proyectos y desafíos.",
+    "info": {
+      "title": "Conectemos",
+      "email": "Envíame un Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "location": "Ubicación"
+    },
+    "form": {
+      "title": "Envía un Mensaje",
+      "name": "Tu Nombre",
+      "namePlaceholder": "Ingresa tu nombre completo",
+      "email": "Dirección de Email",
+      "emailPlaceholder": "tu.email@ejemplo.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto o idea...",
+      "submit": "Enviar Mensaje",
+      "success": "¡Mensaje Enviado!",
+      "error": "Algo salió mal"
+    },
+    "cta": "¡Construyamos algo increíble juntos!"
+  },
+  "about": {
+    "title": "Mi Trayectoria",
+    "subtitle": "De principiante curioso a desarrollador experimentado - aquí está la historia de mi crecimiento profesional y los hitos que moldearon mi carrera.",
+    "stats": {
+      "experience": "Años de Experiencia",
+      "projects": "Proyectos Completados",
+      "clients": "Clientes Satisfechos",
+      "awards": "Premios Ganados"
+    }
+  },
+  "finalCta": {
+    "title": "Construyamos Algo Increíble",
+    "subtitle": "¿Listo para convertir tu visión en realidad? Colaboremos y creemos algo extraordinario juntos.",
+    "button": "Construyamos Algo Increíble",
+    "note": "Haz clic para iniciar la conversación"
+  }
+}

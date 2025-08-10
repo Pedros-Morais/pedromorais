@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Pedro Morais",
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Specialist",
+      "Backend Engineer",
+      "UI/UX Enthusiast",
+      "Problem Solver"
+    ],
+    "description": "Passionate about creating innovative digital solutions and bringing ideas to life through clean, efficient code.",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get In Touch"
+    },
+    "scrollDown": "Scroll to explore"
+  },
+  "language": {
+    "switch": "Switch Language",
+    "english": "English",
+    "portuguese": "Português",
+    "spanish": "Español"
+  },
+  "social": {
+    "linkedin": "LinkedIn Profile",
+    "github": "GitHub Profile",
+    "email": "Send Email"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "A showcase of my recent work and technical expertise. Each project represents a unique challenge and learning experience.",
+    "status": {
+      "completed": "Completed",
+      "inProgress": "In Progress"
+    },
+    "buttons": {
+      "code": "Code",
+      "demo": "Live Demo",
+      "viewAll": "View All Projects"
+    }
+  },
+  "stacks": {
+    "title": "Tech Stack",
+    "subtitle": "Technologies and tools I use to bring ideas to life. Constantly learning and evolving with the latest industry trends.",
+    "cta": "Let's Build Something Amazing",
+    "categories": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Creating beautiful, responsive user interfaces"
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Building robust server-side applications"
+      },
+      "mobile": {
+        "title": "Mobile Development",
+        "description": "Cross-platform mobile applications"
+      },
+      "tools": {
+        "title": "Tools & DevOps",
+        "description": "Development tools and deployment solutions"
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Ready to bring your ideas to life? Let's collaborate and create something amazing together. I'm always excited to work on new projects and challenges.",
+    "info": {
+      "title": "Let's Connect",
+      "email": "Email Me",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "location": "Location"
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or idea...",
+      "submit": "Send Message",
+      "success": "Message Sent!",
+      "error": "Something went wrong"
+    },
+    "cta": "Let's build something incredible together!"
+  },
+  "about": {
+    "title": "My Journey",
+    "subtitle": "From curious beginner to experienced developer - here's the story of my professional growth and the milestones that shaped my career.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "awards": "Awards Won"
+    }
+  },
+  "finalCta": {
+    "title": "Let's Build Something Amazing",
+    "subtitle": "Ready to turn your vision into reality? Let's collaborate and create something extraordinary together.",
+    "button": "Let's Build Something Amazing",
+    "note": "Click to start the conversation"
+  }
+}
