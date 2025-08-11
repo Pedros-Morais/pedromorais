@@ -236,24 +236,35 @@ export default function Hero() {
               variants={itemVariants}
               className="flex flex-wrap gap-4 pt-4"
             >
-              <motion.button
+              <motion.a
+                href={personalInfo.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(139, 92, 246, 0.5)" }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-purple-primary to-purple-accent text-white px-8 py-4 rounded-lg font-semibold flex items-center space-x-2 shadow-lg hover:shadow-purple-primary/25 transition-all duration-300"
+                className="bg-gradient-to-r from-purple-primary to-purple-accent text-white px-8 py-4 rounded-lg font-semibold flex items-center space-x-2 shadow-lg hover:shadow-purple-primary/25 transition-all duration-300 no-underline"
               >
                 <Code className="w-5 h-5" />
                 <span>{t('hero.cta.projects')}</span>
-              </motion.button>
+              </motion.a>
               
-              <motion.a
-                href={getMailtoLink()}
+              <motion.button
+                onClick={() => {
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    const headerHeight = 80;
+                    const elementPosition = element.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+                    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+                  }
+                }}
                 whileHover={{ scale: 1.05, backgroundColor: "rgba(139, 92, 246, 0.1)" }}
                 whileTap={{ scale: 0.95 }}
-                className="border-2 border-purple-primary text-purple-primary px-8 py-4 rounded-lg font-semibold hover:text-white transition-all duration-300 flex items-center space-x-2 no-underline"
+                className="border-2 border-purple-primary text-purple-primary px-8 py-4 rounded-lg font-semibold hover:text-white transition-all duration-300 flex items-center space-x-2"
               >
                 <Mail className="w-5 h-5" />
                 <span>{t('hero.cta.contact')}</span>
-              </motion.a>
+              </motion.button>
             </motion.div>
 
             {/* Social Links */}
