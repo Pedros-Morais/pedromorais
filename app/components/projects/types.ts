@@ -10,6 +10,8 @@ export interface Project {
   githubUrl: string;
   liveUrl: string;
   featured: boolean;
+  image?: string;
+  isPrivateRepo?: boolean;
 }
 
 export interface ParticleProps {

@@ -11,7 +11,6 @@ const navItems = [
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
-  { href: '#experience', label: 'Experience' },
   { href: '#contact', label: 'Contact' },
 ];
 
@@ -22,11 +21,10 @@ export default function Header() {
   const [activeSection, setActiveSection] = useState('');
   const logoRef = useRef<HTMLDivElement>(null);
 
-  // Smooth scroll function
   const smoothScrollTo = (targetId: string) => {
     const element = document.getElementById(targetId.replace('#', ''));
     if (element) {
-      const headerHeight = 80; // Account for sticky header
+      const headerHeight = 80; 
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
 
@@ -36,7 +34,7 @@ export default function Header() {
       });
       
       setActiveSection(targetId);
-      setIsMenuOpen(false); // Close mobile menu if open
+      setIsMenuOpen(false); 
     }
   };
 
@@ -44,7 +42,6 @@ export default function Header() {
     { href: '#about', label: t('nav.about') },
     { href: '#projects', label: t('nav.projects') },
     { href: '#stacks', label: t('nav.skills') },
-    { href: '#experience', label: t('nav.experience') },
     { href: '#contact', label: t('nav.contact') },
   ];
 
