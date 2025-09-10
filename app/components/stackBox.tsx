@@ -16,52 +16,55 @@ import {
   Heart
 } from 'lucide-react';
 
-// Technology categories with skills and proficiency levels
+// Technology categories with Pedro's actual skills and experience levels
 const techStacks = {
   frontend: {
     icon: Code2,
     color: 'from-blue-500 to-cyan-500',
     skills: [
-      { name: 'React', level: 95, experience: '3+ years' },
-      { name: 'Next.js', level: 90, experience: '2+ years' },
-      { name: 'TypeScript', level: 85, experience: '2+ years' },
-      { name: 'Tailwind CSS', level: 92, experience: '2+ years' },
-      { name: 'Framer Motion', level: 80, experience: '1+ year' },
-      { name: 'JavaScript', level: 95, experience: '4+ years' }
+      { name: 'React', level: 98, experience: '6+ years' },
+      { name: 'Next.js', level: 95, experience: '5+ years' },
+      { name: 'JavaScript', level: 98, experience: '6+ years' },
+      { name: 'TypeScript', level: 95, experience: '5+ years' },
+      { name: 'Tailwind CSS', level: 98, experience: '6+ years' },
+      { name: 'Three.js', level: 85, experience: '2+ years' }
     ]
   },
   backend: {
     icon: Database,
     color: 'from-green-500 to-emerald-500',
     skills: [
-      { name: 'Node.js', level: 88, experience: '3+ years' },
-      { name: 'Python', level: 85, experience: '2+ years' },
-      { name: 'PostgreSQL', level: 80, experience: '2+ years' },
-      { name: 'MongoDB', level: 75, experience: '1+ year' },
-      { name: 'Express.js', level: 85, experience: '2+ years' },
-      { name: 'FastAPI', level: 70, experience: '1+ year' }
+      { name: 'Node.js', level: 95, experience: '5+ years' },
+      { name: 'Express.js', level: 95, experience: '5+ years' },
+      { name: 'NestJS', level: 90, experience: '4+ years' },
+      { name: 'Python', level: 90, experience: '4+ years' },
+      { name: 'PostgreSQL', level: 95, experience: '5+ years' },
+      { name: 'MongoDB', level: 90, experience: '4+ years' },
+      { name: 'Prisma', level: 90, experience: '4+ years' },
+      { name: 'Go', level: 80, experience: '3+ years' },
+      { name: 'Java', level: 75, experience: '2+ years' }
     ]
   },
   mobile: {
     icon: Smartphone,
     color: 'from-purple-500 to-pink-500',
     skills: [
-      { name: 'React Native', level: 80, experience: '1+ year' },
-      { name: 'Expo', level: 75, experience: '1+ year' },
-      { name: 'Flutter', level: 65, experience: '6+ months' },
-      { name: 'iOS Development', level: 60, experience: '6+ months' }
+      { name: 'React Native', level: 98, experience: '6+ years' },
+      { name: 'Expo', level: 98, experience: '6+ years' },
+      { name: 'Flutter', level: 85, experience: '2+ years' },
+      { name: 'Swift', level: 85, experience: '2+ years' }
     ]
   },
   tools: {
     icon: Wrench,
     color: 'from-orange-500 to-red-500',
     skills: [
-      { name: 'Git', level: 90, experience: '3+ years' },
-      { name: 'Docker', level: 75, experience: '1+ year' },
-      { name: 'AWS', level: 70, experience: '1+ year' },
-      { name: 'Vercel', level: 85, experience: '2+ years' },
-      { name: 'Figma', level: 80, experience: '2+ years' },
-      { name: 'VS Code', level: 95, experience: '4+ years' }
+      { name: 'Git', level: 98, experience: '6+ years' },
+      { name: 'Docker', level: 90, experience: '4+ years' },
+      { name: 'AWS', level: 90, experience: '4+ years' },
+      { name: 'Vercel', level: 98, experience: '6+ years' },
+      { name: 'Figma', level: 98, experience: '6+ years' },
+      { name: 'Scrum', level: 98, experience: '6+ years' }
     ]
   }
 };

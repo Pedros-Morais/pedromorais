@@ -75,6 +75,7 @@ export default function Projects() {
             boxShadow: "0 20px 40px -10px rgba(147, 51, 234, 0.4)"
           }}
           whileTap={{ scale: 0.95 }}
+          onClick={() => window.open('https://github.com/Pedros-Morais?tab=repositories', '_blank')}
         >
           <span>{t('projects.buttons.viewAll')}</span>
           <motion.div

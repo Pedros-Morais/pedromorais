@@ -102,9 +102,9 @@
     "subtitle": "Da principiante curioso a sviluppatore esperto - ecco la storia della mia crescita professionale e delle tappe che hanno plasmato la mia carriera.",
     "stats": {
       "experience": "Anni di Esperienza",
-      "projects": "Progetti Completati",
-      "clients": "Clienti Soddisfatti",
-      "awards": "Premi Vinti"
+      "technologies": "Tecnologie Padroneggiate",
+      "companies": "Aziende Lavorate",
+      "contributions": "Contributi di Codice"
     }
   },
   "finalCta": {

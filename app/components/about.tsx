@@ -18,79 +18,100 @@ import {
   Zap
 } from 'lucide-react';
 
-// Mock experience data - you can customize this with your actual experience
 const experienceData = [
   {
     id: 1,
     type: 'work',
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Innovation Corp',
-    location: 'São Paulo, Brazil',
-    period: '2022 - Present',
-    description: 'Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and architecting complex systems.',
-    skills: ['React', 'Node.js', 'TypeScript', 'AWS', 'PostgreSQL'],
+    title: 'Tech-Lead Front-End and Back-End',
+    company: 'BeautyRightBack',
+    location: 'New York',
+    period: 'Dec 2024 - Present',
+    description: 'Leading the most critical phases of the project and aligning business and technical objectives through regular meetings with the CEO. Define architectural patterns and tackle complex tasks in both Next.js (with full SSR and TypeScript, following Clean Code principles) and NestJS.',
+    skills: ['Next.js', 'TypeScript', 'NestJS', 'GitHub Actions', 'ArgoCD', 'Jira', 'SSR', 'Clean Code'],
     achievements: [
-      'Increased application performance by 40%',
-      'Led team of 5 developers',
-      'Implemented CI/CD pipeline reducing deployment time by 60%'
+      'Leading team of 15 developers (10 front-end, 5 back-end)',
+      'Implementing enterprise-level architecture patterns',
+      'Setting up robust CI/CD pipeline with GitHub Actions and ArgoCD',
+      'Coordinating daily stand-ups and sprint planning sessions'
     ],
-    icon: Briefcase,
-    color: 'from-blue-500 to-purple-600'
+    icon: Rocket,
+    color: 'from-purple-500 to-indigo-600',
+    current: true
   },
   {
     id: 2,
     type: 'work',
-    title: 'Full Stack Developer',
-    company: 'Digital Solutions Ltd',
-    location: 'Remote',
-    period: '2020 - 2022',
-    description: 'Developed and maintained multiple client projects using modern web technologies. Collaborated with design teams to create pixel-perfect user interfaces.',
-    skills: ['JavaScript', 'React', 'Python', 'Django', 'MongoDB'],
+    title: 'Front End Developer (Contract)',
+    company: 'Superior Digital',
+    location: 'U.S (Remote)',
+    period: 'Apr 2024 - Dec 2024',
+    description: 'Application development in SwiftUI and websites in ReactJS with focus on testing and DevOps practices for mobile deployment.',
+    skills: ['SwiftUI', 'ReactJS', 'TDD', 'Jenkins', 'Apple Store', 'Scrum'],
     achievements: [
-      'Delivered 15+ successful projects',
-      'Improved code quality with 90% test coverage',
-      'Reduced bug reports by 50%'
+      'Successful iOS app deployments to Apple Store',
+      'Implemented comprehensive TDD testing strategy',
+      'Streamlined CI/CD processes with Jenkins',
+      'Enhanced mobile DevOps workflows'
     ],
     icon: Code,
-    color: 'from-green-500 to-blue-500'
+    color: 'from-blue-500 to-cyan-600'
   },
   {
     id: 3,
-    type: 'education',
-    title: 'Computer Science Degree',
-    company: 'University of São Paulo',
-    location: 'São Paulo, Brazil',
-    period: '2016 - 2020',
-    description: 'Focused on software engineering, algorithms, and data structures. Participated in hackathons and coding competitions.',
-    skills: ['Java', 'C++', 'Data Structures', 'Algorithms', 'Software Engineering'],
+    type: 'work',
+    title: 'Front End Developer (Contract)',
+    company: 'MeuCurso',
+    location: 'Brazil',
+    period: 'May 2023 - Apr 2024',
+    description: 'Full-stack development including application, CRM and backend development with mobile DevOps responsibilities for both Apple Store and Google Play.',
+    skills: ['Full-Stack', 'CRM', 'Backend', 'Apple Store', 'Google Play', 'UI/UX', 'Git', 'Scrum'],
     achievements: [
-      'Graduated with honors (GPA: 3.8/4.0)',
-      'Won 3 hackathon competitions',
-      'Published research paper on machine learning'
+      'Multi-platform app deployments (iOS & Android)',
+      'Improved code quality through systematic reviews',
+      'Enhanced UI/UX production processes',
+      'Managed version control and deployment workflows'
     ],
-    icon: GraduationCap,
-    color: 'from-purple-500 to-pink-500'
+    icon: Building,
+    color: 'from-green-500 to-emerald-600'
   },
   {
     id: 4,
     type: 'work',
-    title: 'Junior Developer',
-    company: 'StartupTech',
-    location: 'São Paulo, Brazil',
-    period: '2019 - 2020',
-    description: 'First professional experience developing web applications. Learned agile methodologies and collaborative development practices.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+    title: 'FullStack Developer (Freelance)',
+    company: 'Pedro Consulting',
+    location: 'Brazil and U.S',
+    period: 'Aug 2022 - May 2023',
+    description: 'Independent consulting providing full-stack development services, team management, and cloud infrastructure setup across multiple client projects.',
+    skills: ['Full-Stack', 'APIs', 'Azure', 'AWS', 'CI/CD', 'Team Management', 'UI/UX', 'Scrum'],
     achievements: [
-      'Built first production application',
-      'Learned agile development practices',
-      'Contributed to open source projects'
+      'Successfully managed multiple international client projects',
+      'Implemented comprehensive cloud infrastructure solutions',
+      'Built end-to-end development pipelines',
+      'Provided team leadership and technical mentoring'
     ],
-    icon: Rocket,
-    color: 'from-orange-500 to-red-500'
+    icon: Users,
+    color: 'from-orange-500 to-red-600'
+  },
+  {
+    id: 5,
+    type: 'work',
+    title: 'Front-End Developer (Contract)',
+    company: 'Sip Digital',
+    location: 'Brazil',
+    period: 'Oct - Dec 2022',
+    description: 'CRM and API development for enterprise clients with focus on e-commerce solutions and comprehensive testing practices.',
+    skills: ['CRM', 'API', 'E-commerce', 'Jest', 'TDD', 'Version Control', 'Kanban'],
+    achievements: [
+      'Delivered enterprise CRM solution for IBHASES company',
+      'Built comprehensive Brazilian e-commerce platform',
+      'Implemented robust testing suite with Jest (TDD)',
+      'Managed version control and production deployments'
+    ],
+    icon: Briefcase,
+    color: 'from-pink-500 to-rose-600'
   }
 ];
 
-// Timeline Item Component
 const TimelineItem = ({ 
   item, 
   index, 
@@ -412,10 +433,10 @@ export default function About() {
         viewport={{ once: true }}
       >
         {[
-          { label: t('about.stats.experience'), value: '4+', icon: Calendar },
-          { label: t('about.stats.projects'), value: '50+', icon: Code },
-          { label: t('about.stats.clients'), value: '25+', icon: Users },
-          { label: t('about.stats.awards'), value: '8+', icon: Award }
+          { label: t('about.stats.experience'), value: '6+', icon: Calendar },
+          { label: t('about.stats.technologies'), value: '25+', icon: Code },
+          { label: t('about.stats.companies'), value: '4+', icon: Users },
+          { label: t('about.stats.contributions'), value: '1000+', icon: Award }
         ].map((stat, index) => (
           <motion.div
             key={index}

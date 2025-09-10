@@ -21,6 +21,10 @@ export const metadata: Metadata = {
   keywords: "Pedro Morais, portfolio, developer, designer, web development",
   authors: [{ name: "Pedro Morais" }],
   viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: [{ url: '/icon.ico' }],
+    shortcut: '/icon.ico',
+  },
 };
 
 export default function RootLayout({

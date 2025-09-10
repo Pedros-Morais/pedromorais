@@ -101,9 +101,9 @@
     "subtitle": "From curious beginner to experienced developer - here's the story of my professional growth and the milestones that shaped my career.",
     "stats": {
       "experience": "Years Experience",
-      "projects": "Projects Completed",
-      "clients": "Happy Clients",
-      "awards": "Awards Won"
+      "technologies": "Technologies Mastered",
+      "companies": "Companies Worked",
+      "contributions": "Code Contributions"
     }
   },
   "finalCta": {

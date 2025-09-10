@@ -1,41 +1,45 @@
 import { Project } from './types';
 
 /**
- * Mock project data for demonstration purposes
- * Replace with real project data from your portfolio
+ * Pedro's actual project portfolio
+ * Real projects from professional experience
  */
 export const mockProjects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A modern e-commerce platform built with Next.js and TypeScript, featuring real-time inventory management and secure payment processing.",
-    category: "Web Development",
+    title: "Verticalizado",
+    description: "A comprehensive mobile application designed for law students in Brazil, providing study materials, practice tests, and educational resources to help students excel in their legal studies.",
+    category: "Mobile Development",
     status: "completed",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "PostgreSQL", "Prisma"],
-    githubUrl: "https://github.com/pedros-morais/ecommerce-platform",
-    liveUrl: "https://ecommerce-demo.pedros-morais.dev",
-    featured: true
+    technologies: ["React Native", "Expo", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+    githubUrl: "https://github.com/pedros-morais/verticalizado",
+    liveUrl: "",
+    featured: true,
+    image: "/images/projects/verticalizado.jpeg",
+    isPrivateRepo: true
   },
   {
     id: 2,
-    title: "AI Task Manager",
-    description: "An intelligent task management application that uses machine learning to prioritize tasks and optimize productivity workflows.",
-    category: "AI & Machine Learning",
-    status: "in-progress",
-    technologies: ["React", "Python", "FastAPI", "TensorFlow", "MongoDB"],
-    githubUrl: "https://github.com/pedros-morais/ai-task-manager",
-    liveUrl: "https://tasks.pedros-morais.dev",
-    featured: false
+    title: "Next.js Multilanguage Template",
+    description: "A production-ready, feature-rich Next.js template designed to kickstart multilingual web applications. Includes complete i18n setup, performance optimizations, form validation with Zod, modern UI foundation with TailwindCSS, and exceptional developer experience with TypeScript, ESLint, and Prettier.",
+    category: "Web Development",
+    status: "completed",
+    technologies: ["Next.js", "TypeScript", "TailwindCSS", "i18n", "Zod", "React Hook Form", "ESLint", "Husky"],
+    githubUrl: "https://github.com/Pedros-Morais/nextjs-template",
+    liveUrl: "",
+    featured: true,
+    image: "/images/projects/nextjs.png"
   },
   {
     id: 3,
-    title: "Real-time Chat App",
-    description: "A scalable real-time messaging application with end-to-end encryption, file sharing, and video calling capabilities.",
-    category: "Full Stack",
+    title: "Embedded Fall Detection System",
+    description: "An embedded system for detecting falls in residential environments using computer vision and Arduino. Features real-time video monitoring with MediaPipe Pose detection, Arduino integration for alerts, and noise reduction algorithms to minimize false positives. Specifically designed for elderly care with 20-frame threshold validation.",
+    category: "Computer Vision & IoT",
     status: "completed",
-    technologies: ["Node.js", "Socket.io", "React", "WebRTC", "Redis", "Docker"],
-    githubUrl: "https://github.com/pedros-morais/realtime-chat",
-    liveUrl: "https://chat.pedros-morais.dev",
-    featured: true
+    technologies: ["Python", "OpenCV", "MediaPipe", "Arduino", "Computer Vision", "Serial Communication", "IoT"],
+    githubUrl: "https://github.com/Pedros-Morais/fall_detector",
+    liveUrl: "",
+    featured: true,
+    image: "/images/projects/falling.jpg"
   }
 ];

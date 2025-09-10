@@ -7,7 +7,6 @@ import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from '../../hooks/useTranslation';
 import { personalInfo } from '../../config/personalInfo';
 
-
 export default function Header() {
   const { t } = useTranslation();
   const [isHoveringLogo, setIsHoveringLogo] = useState(false);
@@ -36,7 +35,6 @@ export default function Header() {
     { href: '#about', label: t('nav.about') },
     { href: '#projects', label: t('nav.projects') },
     { href: '#stacks', label: t('nav.skills') },
-    { href: '#experience', label: t('nav.experience') },
     { href: '#contact', label: t('nav.contact') },
   ];
 

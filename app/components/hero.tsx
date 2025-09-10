@@ -14,7 +14,6 @@ const profileImages = [
   '/images/profilePic/pfp3.jpeg'
 ];
 
-// Roles will be loaded from translations
 
 const FloatingElement = ({ delay = 0, duration = 4, children }: { delay?: number; duration?: number; children: React.ReactNode }) => (
   <motion.div

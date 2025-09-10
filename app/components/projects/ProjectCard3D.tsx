@@ -104,7 +104,12 @@ export const ProjectCard3D = ({ project, index }: ProjectCard3DProps) => {
           />
           
           {/* Project Image */}
-          <ProjectImage category={project.category} isHovered={isHovered} />
+          <ProjectImage 
+            category={project.category} 
+            isHovered={isHovered} 
+            image={project.image}
+            title={project.title}
+          />
           
           {/* Card Content */}
           <div className="p-6 space-y-4">
@@ -131,7 +136,11 @@ export const ProjectCard3D = ({ project, index }: ProjectCard3DProps) => {
             <TechnologyTags technologies={project.technologies} />
             
             {/* Action Buttons */}
-            <ProjectActions githubUrl={project.githubUrl} liveUrl={project.liveUrl} />
+            <ProjectActions 
+              githubUrl={project.githubUrl} 
+              liveUrl={project.liveUrl} 
+              isPrivateRepo={project.isPrivateRepo}
+            />
           </div>
         </motion.div>
       </motion.div>
