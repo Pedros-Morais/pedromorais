@@ -5,7 +5,6 @@ import { useTranslation } from '../../hooks/useTranslation';
 import { personalInfo } from '../../config/personalInfo';
 import { Sparkles, ArrowRight, Zap } from 'lucide-react';
 
-// Floating particle component for subtle background effect
 const FloatingParticle = ({ delay = 0 }: { delay?: number }) => {
   return (
     <motion.div

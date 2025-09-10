@@ -213,7 +213,6 @@ const CategorySection = ({
   );
 };
 
-// Floating Particles Background
 const FloatingParticles = () => {
   const particles = Array.from({ length: 20 }, (_, i) => ({
     id: i,
@@ -250,7 +249,6 @@ const FloatingParticles = () => {
   );
 };
 
-// Main Stacks Component
 export default function StackBox() {
   const { t } = useTranslation();
   

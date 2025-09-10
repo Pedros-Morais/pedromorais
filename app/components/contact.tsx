@@ -21,7 +21,6 @@ import {
   Zap
 } from 'lucide-react';
 
-// Floating particle component for background effect
 const FloatingParticle = ({ delay = 0 }: { delay?: number }) => {
   return (
     <motion.div
@@ -46,7 +45,6 @@ const FloatingParticle = ({ delay = 0 }: { delay?: number }) => {
   );
 };
 
-// Interactive contact card component
 const ContactCard = ({ 
   icon: Icon, 
   title, 

@@ -3,6 +3,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Projects from './components/projects';
 import StackBox from './components/stackBox';
+import SimpleContact from './components/simpleContact';
 import FinalCta from './components/finalCta';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Projects />
       <StackBox />
+      <SimpleContact />
       <FinalCta />
     </main>
   );
